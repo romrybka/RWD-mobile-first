@@ -53,7 +53,6 @@ html {
   border-radius: 5px;
 }
 
-
 /* HEADER */
 .header {
   background: #FFDC00;
@@ -180,20 +179,11 @@ html {
 }
 
 /* MEDIA QUERIES */
-/* for-phone-only */
-@media only screen and (max-width: 599px) {
-
-}
-
 /* for-tablet-portrait-up */
 @media only screen and (min-width: 600px) {
   .container {
     display: flex;
   }
-
-  /* .header {
-    display: flex;
-  } */
 
   .header__logo {
     width: 40%;
@@ -314,10 +304,5 @@ html {
   .section-3 .article:last-child {
     margin-right: 0;
   }
-
-}
-
-/* for-big-desktop-up */
-@media only screen and (min-width: 1440px) {
 
 }
