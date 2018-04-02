@@ -56,7 +56,10 @@ html {
 /* HEADER */
 .header {
   background: #FFDC00;
-  padding: 1em;
+}
+
+.header .container {
+    padding: 1em;
 }
 
 .header__logo,
@@ -149,6 +152,9 @@ html {
 /* FOOTER */
 .footer {
   background: #FFDC00;
+}
+
+.footer-container {
   padding: 1em;
 }
 
@@ -181,8 +187,8 @@ html {
 /* MEDIA QUERIES */
 /* for-tablet-portrait-up */
 @media only screen and (min-width: 600px) {
-  .container {
-    display: flex;
+  .header .container {
+      display: flex;
   }
 
   .header__logo {
@@ -288,11 +294,6 @@ html {
   .container, .footer-container {
     width: 1200px;
     margin: 0 auto;
-  }
-  
-  .header .container,
-  .footer-container {
-    padding: 0 1em;
   }
 
   .section-3 .article {
